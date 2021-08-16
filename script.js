@@ -10,7 +10,7 @@ document.getElementById("btn-props").addEventListener("click",() => {
 
 function renderComponent() {
     render(Component,{propCount},document.getElementById("root"))
-    render(Component,{propCount,btnEle: document.getElementById("btn-count-2")},document.getElementById("root-1"))
+    render(Component,{propCount},document.getElementById("root-2"))
 }
 
 renderComponent()
